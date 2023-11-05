@@ -1,2 +1,71 @@
-# html
-my first code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Myself</title>
+  <style>  
+    h3,h1,div{
+      margin: 0%;
+      padding: 0%;
+      background-size: cover;
+      text-align: center;
+    }
+
+  h2{
+    color: black;
+    background-color: yellow;
+  }
+  table{
+    text-align: center;
+  }
+
+  </style>
+</head>
+<body>
+  <div>
+    <h3><B>HI THERE!</B></h3>
+    <h1><b><u>I'M Ashish Kunwar</u></b></h1>
+   <pre> Founder & CEO of this website. A great Welcome to all viewers into my Website.
+    In this website I am going to provide you the basic and most essential TAGS.
+    Firstly, if you sre also worried about programing in Ai era 
+    then you can go through my channel : 
+
+    <a href="https://www.youtube.com/channel/UCEUu7zYSnyOWpuuRMnK4WCQ" target="_blank" > <h2><big>CodeVerseStudio</big></h2></a>
+    <a href=""></a>
+      
+    
+    <iframe width="460" height="215" src="https://www.youtube.com/embed/MlvEMkd3gKY?si=E3GEdEsnYXBFOX5H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     <select name="tags list" >Tags list 
+      <option value="Input tags">Input tags</option>
+      <option value="Table tags">Table tags</option>
+     </select>
+    
+
+    <div class="container">
+      <h2>Input tag</h2>
+      <p> Through the help of this tag we can easily add some radio buttons, checkboxsand so on.
+        here;
+        <b>      <input type="radio" name="section" > radio tag
+                 <input type="checkbox"> checkbox tag                   </b>
+                 <img src="/input tags.png" alt=""></p>
+    </div>
+    <div class="container">
+       <h2>Table tag </h2>
+       <p>This tag is used ot give a tabular form of our data 
+        we use Th tag to give the heading of the table 
+        like as;
+        s.no. country capital GDP rank 
+         similarly, tr for table row and td uses to put our data inside the table row boxes.
+       
+         <img src="/table img.png" width="400px" alt="">
+         </p>
+    </div>
+    <label for="">
+      <textarea name="explain" placeholder="Tell about your opinion any doubts ?" id="" cols="30" rows="10"></textarea>
+    </label>
+
+    </pre>
+  </div>
+</body>
+</html>
